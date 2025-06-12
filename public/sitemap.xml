@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-12T12:02:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-12T12:02:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+    <lastmod>2025-06-12T12:02:09+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/y86disassembler/</loc>
+    <lastmod>2025-06-12T12:02:09+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>
