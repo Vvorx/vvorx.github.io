@@ -1,0 +1,82 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Igor Kopka'
+
+[module]
+[[module.imports]]
+path = "github.com/tomfran/typo"
+
+[taxonomies]
+tag = 'tags'
+
+[params]
+# Meta description
+description = "Igor Kopka's personal site"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroTitle = 'Hello there!'
+homeIntroContent = """
+I am a Computer Science student at the University of Huddersfield with a passion towards cybersecurity. This site is a space for documenting my learning, projects and anything else I decide to experiment with.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Projects'
+homeCollection = 'projects'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/igorkopka/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/vvorx"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
