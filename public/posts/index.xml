@@ -6,6 +6,14 @@
     <description>Recent content in Posts on Igor Kopka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 17 Jun 2025 11:35:16 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I passed Security&#43; in 2 weeks and how you can too</title>
+      <link>http://localhost:1313/posts/security&#43;/</link>
+      <pubDate>Tue, 17 Jun 2025 11:35:16 +0100</pubDate>
+      <guid>http://localhost:1313/posts/security&#43;/</guid>
+      <description>Disclaimer # Before sitting this exam I already had a decent grasp of some of the contents the exam includes from college and university. However, I believe that if you put the time in you could achieve a similar result with no prior knowledge.&#xA;Exam Basics # Start by watching the entire Professor Messer playlist, as it covers every single topic on the exam objectives. You should also keep track of the objectives while watching the videos.</description>
+    </item>
   </channel>
 </rss>
