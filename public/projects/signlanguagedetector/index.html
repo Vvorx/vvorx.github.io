@@ -20,20 +20,20 @@
 
 <title>
     
-    Y86 Disassembler | Igor Kopka
+    Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe | Igor Kopka
     
 </title>
 
-<link rel="canonical" href="http://localhost:1313/projects/y86disassembler/"/>
+<link rel="canonical" href="http://localhost:1313/projects/signlanguagedetector/"/>
 
-<meta property="og:title" content="Y86 Disassembler" />
-<meta property="og:description" content="One of the first modules we took during my first year was a Computer Organisation and Architecture module where we explored how computers work on the low-level.
-To put everything we learnt into practice, we built a Y86 Disassembler in C. The mini-project was split into three objectives:
-Decode opcodes to mnemonics, Parse operands and registers from instructions, Disassemble full Y86 Programs from raw bytecode. By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out here :)" />
+<meta property="og:title" content="Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe" />
+<meta property="og:description" content="This was my first team project as a Computer Science student. We built a real-time sign language detection system that uses a webcam to capture hand gestures and classify them into basic sign-language categories.
+Tech Stack we used # Python OpenCV MediaPipe scikit-learn The project was structured into four seperate python programs:
+collect_imgs.py – Capture 100 images per gesture class create_dataset.py – Label and organize the dataset train_classifier.py – Extract features and train a simple ML model inference_classifier." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/y86disassembler/" /><meta property="article:section" content="projects" />
-<meta property="article:published_time" content="2025-06-12T12:02:09+01:00" />
-<meta property="article:modified_time" content="2025-06-12T12:02:09+01:00" />
+<meta property="og:url" content="http://localhost:1313/projects/signlanguagedetector/" /><meta property="article:section" content="projects" />
+<meta property="article:published_time" content="2025-06-18T00:22:53+01:00" />
+<meta property="article:modified_time" content="2025-06-18T00:22:53+01:00" />
 
 
 
@@ -126,7 +126,7 @@ Decode opcodes to mnemonics, Parse operands and registers from instructions, Dis
     <a href="/projects/">Projects</a>
     <span class="breadcrumbs-separator"> > </span>
     
-    <a class="breadcrumbs-current" href="/projects/y86disassembler/">Y86 Disassembler</a>
+    <a class="breadcrumbs-current" href="/projects/signlanguagedetector/">Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe</a>
 </div>
 
 
@@ -137,7 +137,7 @@ Decode opcodes to mnemonics, Parse operands and registers from instructions, Dis
 
     
 
-    <h1 class="single-title">Y86 Disassembler</h1>
+    <h1 class="single-title">Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe</h1>
     
 
     
@@ -146,7 +146,7 @@ Decode opcodes to mnemonics, Parse operands and registers from instructions, Dis
       
       
       
-      <time datetime="2025-06-12T12:02:09&#43;01:00">June 12, 2025</time>
+      <time datetime="2025-06-18T00:22:53&#43;01:00">June 18, 2025</time>
       
 
       
@@ -163,14 +163,25 @@ Decode opcodes to mnemonics, Parse operands and registers from instructions, Dis
   
 
   <div class="single-content">
-    <p>One of the first modules we took during my first year was a <strong>Computer Organisation and Architecture module</strong> where we explored how computers work on the low-level.</p>
-<p>To put everything we learnt into practice, we built a <strong>Y86 Disassembler</strong> in C. The mini-project was split into three objectives:</p>
+    <p>This was my first team project as a Computer Science student. We built a real-time sign language detection system that uses a webcam to capture hand gestures and classify them into basic sign-language categories.</p>
+<h2 class="heading" id="tech-stack-we-used">
+  Tech Stack we used
+  <a class="anchor" href="#tech-stack-we-used">#</a>
+</h2>
+<ul>
+<li>Python</li>
+<li>OpenCV</li>
+<li>MediaPipe</li>
+<li>scikit-learn</li>
+</ul>
+<p>The project was structured into four seperate python programs:</p>
 <ol>
-<li>Decode opcodes to mnemonics,</li>
-<li>Parse operands and registers from instructions,</li>
-<li>Disassemble full Y86 Programs from raw bytecode.</li>
+<li><code>collect_imgs.py</code> – Capture 100 images per gesture class</li>
+<li><code>create_dataset.py</code> – Label and organize the dataset</li>
+<li><code>train_classifier.py</code> – Extract features and train a simple ML model</li>
+<li><code>inference_classifier.py</code> – Perform live classification via webcam</li>
 </ol>
-<p>By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out <a href="https://github.com/Vvorx/Y86-Disassembler">here</a> :)</p>
+<p>The system can classify around 10 different gestures in real time and gave me an amazing introduction into both machine learning and collaborating as a team. It can be found <a href="https://github.com/Vvorx/SignLanguageDetector">here</a></p>
 
     
   </div>
@@ -190,18 +201,18 @@ Decode opcodes to mnemonics, Parse operands and registers from instructions, Dis
 
         <div class="single-pagination-prev">
             
+            <div class="single-pagination-container-prev">
+                <div class="single-pagination-text">←</div>
+                <div class="single-pagination-text">
+                    <a href="/projects/y86disassembler/">
+                        Y86 Disassembler
+                    </a>
+                </div>
+            </div>
+            
         </div>
 
         <div class="single-pagination-next">
-            
-            <div class="single-pagination-container-next">
-                <div class="single-pagination-text">
-                    <a href="/projects/signlanguagedetector/">
-                        Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe
-                    </a>
-                </div>
-                <div class="single-pagination-text">→</div>
-            </div>
             
         </div>
 

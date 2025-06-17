@@ -6,8 +6,15 @@
     <description>Recent content in Home on Igor Kopka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Jun 2025 11:35:16 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 00:22:53 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe</title>
+      <link>http://localhost:1313/projects/signlanguagedetector/</link>
+      <pubDate>Wed, 18 Jun 2025 00:22:53 +0100</pubDate>
+      <guid>http://localhost:1313/projects/signlanguagedetector/</guid>
+      <description></description>
+    </item>
     <item>
       <title>How I passed Security&#43; in 2 weeks and how you can too</title>
       <link>http://localhost:1313/posts/security&#43;/</link>
