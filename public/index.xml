@@ -4,30 +4,37 @@
     <title>Home on Igor Kopka</title>
     <link>http://localhost:1313/</link>
     <description>Recent content in Home on Igor Kopka</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Jun 2025 00:22:53 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 15 Aug 2025 12:46:14 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sporebot</title>
+      <link>http://localhost:1313/projects/sporebot/</link>
+      <pubDate>Fri, 15 Aug 2025 12:46:14 +0100</pubDate>
+      <guid>http://localhost:1313/projects/sporebot/</guid>
+      <description>&lt;h3 class=&#34;heading&#34; id=&#34;sporebot---mushroom-fetching-discord-bot&#34;&gt;&#xA;  SporeBot - Mushroom-Fetching Discord Bot&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#sporebot---mushroom-fetching-discord-bot&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;This summer while I was in Poland I built &lt;strong&gt;SporeBot&lt;/strong&gt;, a Discord bot designed to fetch random mushroom information from Wikipedia.&#xA;The primary goal of this project was to not only refresh my Python skills over summer but also delve into web-scraping.&lt;/p&gt;&#xA;&lt;h4 class=&#34;heading&#34; id=&#34;core-features&#34;&gt;&#xA;  Core Features&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#core-features&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Random mushroom facts &amp;ndash; &lt;code&gt;$mushroom&lt;/code&gt; makes SporeBot pick a random mushroom from the included database&lt;/li&gt;&#xA;&lt;li&gt;Mushroom lookups &amp;ndash;  &lt;code&gt;$mushroom [name]&lt;/code&gt; allows for querying of specific mushrooms&lt;/li&gt;&#xA;&lt;li&gt;Visuals of the mushroom displayed &amp;ndash; &lt;code&gt;$list&lt;/code&gt; or &lt;code&gt;mushrooms&lt;/code&gt; displays the first 20 mushrooms in the database&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h4 class=&#34;heading&#34; id=&#34;how-it-works&#34;&gt;&#xA;  How It Works&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#how-it-works&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h4&gt;&#xA;&lt;p&gt;I used &lt;code&gt;requests&lt;/code&gt; and &lt;code&gt;beautifulsoup4&lt;/code&gt; to scrape Wikipedia and extract text and images from mushrooms mapped in &lt;code&gt;mushrooms.py&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Real-Time Sign Language Detector Using OpenCV &amp; MediaPipe</title>
       <link>http://localhost:1313/projects/signlanguagedetector/</link>
       <pubDate>Wed, 18 Jun 2025 00:22:53 +0100</pubDate>
       <guid>http://localhost:1313/projects/signlanguagedetector/</guid>
-      <description></description>
+      <description>&lt;p&gt;This was my first team project as a Computer Science student. We built a real-time sign language detection system that uses a webcam to capture hand gestures and classify them into basic sign-language categories.&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading&#34; id=&#34;tech-stack-we-used&#34;&gt;&#xA;  Tech Stack we used&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#tech-stack-we-used&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;li&gt;OpenCV&lt;/li&gt;&#xA;&lt;li&gt;MediaPipe&lt;/li&gt;&#xA;&lt;li&gt;scikit-learn&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The project was structured into four seperate python programs:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;code&gt;collect_imgs.py&lt;/code&gt; – Capture 100 images per gesture class&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;create_dataset.py&lt;/code&gt; – Label and organize the dataset&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;train_classifier.py&lt;/code&gt; – Extract features and train a simple ML model&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;inference_classifier.py&lt;/code&gt; – Perform live classification via webcam&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;The system can classify around 10 different gestures in real time and gave me an amazing introduction into both machine learning and collaborating as a team. It can be found &lt;a href=&#34;https://github.com/Vvorx/SignLanguageDetector&#34;&gt;here&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I passed Security&#43; in 2 weeks and how you can too</title>
       <link>http://localhost:1313/posts/security&#43;/</link>
       <pubDate>Tue, 17 Jun 2025 11:35:16 +0100</pubDate>
       <guid>http://localhost:1313/posts/security&#43;/</guid>
-      <description>Disclaimer # Before sitting this exam I already had a decent grasp of some of the contents the exam includes from college and university. However, I believe that if you put the time in you could achieve a similar result with no prior knowledge.&#xA;Exam Basics # Start by watching the entire Professor Messer playlist, as it covers every single topic on the exam objectives. You should also keep track of the objectives while watching the videos.</description>
+      <description>&lt;h3 class=&#34;heading&#34; id=&#34;disclaimer&#34;&gt;&#xA;  Disclaimer&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#disclaimer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Before sitting this exam I already had a decent grasp of some of the contents the exam includes from college and university. However, I believe that if you put the time in you could achieve a similar result with no prior knowledge.&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading&#34; id=&#34;exam-basics&#34;&gt;&#xA;  Exam Basics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#exam-basics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Start by watching the entire &lt;a href=&#34;https://www.youtube.com/watch?v=KiEptGbnEBc&amp;amp;list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv&#34;&gt;Professor Messer&lt;/a&gt; playlist, as it covers every single topic on the &lt;a href=&#34;https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf&#34;&gt;exam objectives&lt;/a&gt;. You should also keep track of the objectives while watching the videos.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Y86 Disassembler</title>
       <link>http://localhost:1313/projects/y86disassembler/</link>
       <pubDate>Thu, 12 Jun 2025 12:02:09 +0100</pubDate>
       <guid>http://localhost:1313/projects/y86disassembler/</guid>
-      <description>One of the first modules we took during my first year was a Computer Organisation and Architecture module where we explored how computers work on the low-level.&#xA;To put everything we learnt into practice, we built a Y86 Disassembler in C. The mini-project was split into three objectives:&#xA;Decode opcodes to mnemonics, Parse operands and registers from instructions, Disassemble full Y86 Programs from raw bytecode. By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out here :)</description>
+      <description>&lt;p&gt;One of the first modules we took during my first year was a &lt;strong&gt;Computer Organisation and Architecture module&lt;/strong&gt; where we explored how computers work on the low-level.&lt;/p&gt;&#xA;&lt;p&gt;To put everything we learnt into practice, we built a &lt;strong&gt;Y86 Disassembler&lt;/strong&gt; in C. The mini-project was split into three objectives:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Decode opcodes to mnemonics,&lt;/li&gt;&#xA;&lt;li&gt;Parse operands and registers from instructions,&lt;/li&gt;&#xA;&lt;li&gt;Disassemble full Y86 Programs from raw bytecode.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out &lt;a href=&#34;https://github.com/Vvorx/Y86-Disassembler&#34;&gt;here&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

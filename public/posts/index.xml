@@ -4,7 +4,7 @@
     <title>Posts on Igor Kopka</title>
     <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Igor Kopka</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Jun 2025 11:35:16 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/security&#43;/</link>
       <pubDate>Tue, 17 Jun 2025 11:35:16 +0100</pubDate>
       <guid>http://localhost:1313/posts/security&#43;/</guid>
-      <description>Disclaimer # Before sitting this exam I already had a decent grasp of some of the contents the exam includes from college and university. However, I believe that if you put the time in you could achieve a similar result with no prior knowledge.&#xA;Exam Basics # Start by watching the entire Professor Messer playlist, as it covers every single topic on the exam objectives. You should also keep track of the objectives while watching the videos.</description>
+      <description>&lt;h3 class=&#34;heading&#34; id=&#34;disclaimer&#34;&gt;&#xA;  Disclaimer&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#disclaimer&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Before sitting this exam I already had a decent grasp of some of the contents the exam includes from college and university. However, I believe that if you put the time in you could achieve a similar result with no prior knowledge.&lt;/p&gt;&#xA;&lt;h2 class=&#34;heading&#34; id=&#34;exam-basics&#34;&gt;&#xA;  Exam Basics&#xA;  &lt;a class=&#34;anchor&#34; href=&#34;#exam-basics&#34;&gt;#&lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Start by watching the entire &lt;a href=&#34;https://www.youtube.com/watch?v=KiEptGbnEBc&amp;amp;list=PLG49S3nxzAnl4QDVqK-hOnoqcSKEIDDuv&#34;&gt;Professor Messer&lt;/a&gt; playlist, as it covers every single topic on the &lt;a href=&#34;https://assets.ctfassets.net/82ripq7fjls2/6TYWUym0Nudqa8nGEnegjG/0f9b974d3b1837fe85ab8e6553f4d623/CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf&#34;&gt;exam objectives&lt;/a&gt;. You should also keep track of the objectives while watching the videos.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

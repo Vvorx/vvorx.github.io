@@ -3,7 +3,7 @@
   dir="ltr">
 
 <head>
-	<meta name="generator" content="Hugo 0.123.7"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.148.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
@@ -28,10 +28,12 @@
 
 <link rel="canonical" href="http://localhost:1313/"/>
 
-<meta property="og:title" content="Home" />
-<meta property="og:description" content="Igor Kopka&#39;s personal site" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:url" content="http://localhost:1313/">
+  <meta property="og:site_name" content="Igor Kopka">
+  <meta property="og:title" content="Home">
+  <meta property="og:description" content="Igor Kopka&#39;s personal site">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="website">
 
 
 
@@ -45,8 +47,7 @@
 
 
 
-
-<link rel="stylesheet" href="/assets/combined.min.32c4505ff6f37c4a072861f2cbad7347d8e8e8c8f60e01107b50d77c8c29f9f6.css" media="all">
+<link rel="stylesheet" href="/assets/combined.min.722a154090e948dfc0b4cf97263194700c53c73fc095c249b60a5c9caddbbf84.css" media="all">
 
 
 
@@ -171,6 +172,47 @@
     
     
 
+    <p class="line-date">15 Aug 2025 </p>
+
+    <div>
+        <p class="line-title">
+            <a href="/projects/sporebot/">
+                Sporebot
+            </a>
+        </p>
+
+        
+        <p class="line-summary"> <h3 class="heading" id="sporebot---mushroom-fetching-discord-bot">
+  SporeBot - Mushroom-Fetching Discord Bot
+  <a class="anchor" href="#sporebot---mushroom-fetching-discord-bot">#</a>
+</h3>
+<p>This summer while I was in Poland I built <strong>SporeBot</strong>, a Discord bot designed to fetch random mushroom information from Wikipedia.
+The primary goal of this project was to not only refresh my Python skills over summer but also delve into web-scraping.</p>
+<h4 class="heading" id="core-features">
+  Core Features
+  <a class="anchor" href="#core-features">#</a>
+</h4>
+<ul>
+<li>Random mushroom facts &ndash; <code>$mushroom</code> makes SporeBot pick a random mushroom from the included database</li>
+<li>Mushroom lookups &ndash;  <code>$mushroom [name]</code> allows for querying of specific mushrooms</li>
+<li>Visuals of the mushroom displayed &ndash; <code>$list</code> or <code>mushrooms</code> displays the first 20 mushrooms in the database</li>
+</ul>
+<h4 class="heading" id="how-it-works">
+  How It Works
+  <a class="anchor" href="#how-it-works">#</a>
+</h4>
+<p>I used <code>requests</code> and <code>beautifulsoup4</code> to scrape Wikipedia and extract text and images from mushrooms mapped in <code>mushrooms.py</code></p> </p>
+        
+    </div>
+</div>
+    
+    <div class="post-line">
+
+    
+    
+    
+    
+
     <p class="line-date">18 Jun 2025 </p>
 
     <div>
@@ -181,7 +223,25 @@
         </p>
 
         
-        <p class="line-summary">  </p>
+        <p class="line-summary"> <p>This was my first team project as a Computer Science student. We built a real-time sign language detection system that uses a webcam to capture hand gestures and classify them into basic sign-language categories.</p>
+<h2 class="heading" id="tech-stack-we-used">
+  Tech Stack we used
+  <a class="anchor" href="#tech-stack-we-used">#</a>
+</h2>
+<ul>
+<li>Python</li>
+<li>OpenCV</li>
+<li>MediaPipe</li>
+<li>scikit-learn</li>
+</ul>
+<p>The project was structured into four seperate python programs:</p>
+<ol>
+<li><code>collect_imgs.py</code> – Capture 100 images per gesture class</li>
+<li><code>create_dataset.py</code> – Label and organize the dataset</li>
+<li><code>train_classifier.py</code> – Extract features and train a simple ML model</li>
+<li><code>inference_classifier.py</code> – Perform live classification via webcam</li>
+</ol>
+<p>The system can classify around 10 different gestures in real time and gave me an amazing introduction into both machine learning and collaborating as a team. It can be found <a href="https://github.com/Vvorx/SignLanguageDetector">here</a></p> </p>
         
     </div>
 </div>
@@ -203,9 +263,14 @@
         </p>
 
         
-        <p class="line-summary"> One of the first modules we took during my first year was a Computer Organisation and Architecture module where we explored how computers work on the low-level.
-To put everything we learnt into practice, we built a Y86 Disassembler in C. The mini-project was split into three objectives:
-Decode opcodes to mnemonics, Parse operands and registers from instructions, Disassemble full Y86 Programs from raw bytecode. By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out here :) </p>
+        <p class="line-summary"> <p>One of the first modules we took during my first year was a <strong>Computer Organisation and Architecture module</strong> where we explored how computers work on the low-level.</p>
+<p>To put everything we learnt into practice, we built a <strong>Y86 Disassembler</strong> in C. The mini-project was split into three objectives:</p>
+<ol>
+<li>Decode opcodes to mnemonics,</li>
+<li>Parse operands and registers from instructions,</li>
+<li>Disassemble full Y86 Programs from raw bytecode.</li>
+</ol>
+<p>By the time I finished all three tasks I gained deeper appreciation for how things run on the machine level, you can check the project out <a href="https://github.com/Vvorx/Y86-Disassembler">here</a> :)</p> </p>
         
     </div>
 </div>
