@@ -21,7 +21,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroTitle = 'Hello there!'
 homeIntroContent = """
-I am a Computer Science student at the University of Huddersfield with a passion towards cybersecurity. This site is a space for documenting my learning, projects and anything else I decide to experiment with.
+I am a Computer Science student at the University of Huddersfield. This site is a space for documenting my learning, projects and anything else I decide to experiment with.
 """
 
 # Collection to display on home
